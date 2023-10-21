@@ -1,0 +1,10 @@
+.navbarListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.navbarListItem:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}

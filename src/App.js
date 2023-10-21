@@ -1,9 +1,14 @@
-import './styles/App.css';
+import { Navbar } from "../src/component";
+import { Main } from "./Pages"
 
 function App() {
   return (
-    <div className="App">
-      <h1 style={{padding : 0, margin:0}}>HELLO WORLD</h1>
+    <div className="App" style={{
+      margin : 0,
+      fontFamily : 'Poppins'
+    }}>
+      <Navbar/>
+      <Main/>
     </div>
   );
 }
