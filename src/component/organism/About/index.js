@@ -1,7 +1,8 @@
-import React from 'react'
-import { Container } from '../../layout'
-import SkillList from '../../molecule/skillList'
-import '../../../styles/about.css'
+import React from 'react';
+import { Container } from '../../layout';
+import SkillList from '../../molecule/skillList';
+
+import '../../../styles/about.css';
 
 const About = () => {
     return (

@@ -10,6 +10,8 @@ const CustomButton = ({ color, children }) => {
             alignItems : 'center',
             justifyContent : 'center',
             padding : '1rem 2rem',
+            fontSize : '1rem',
+            fontWeight : 600
         }}>
             {children}
         </button>

@@ -1,6 +1,5 @@
-import React from 'react'
-import { Container } from '../../layout'
-import { colors } from '../../../utilities/colors'
+import React from 'react';
+import { Container } from '../../layout';
 
 const Experience = () => {
     return (
@@ -17,7 +16,10 @@ const Experience = () => {
         }}>
             <Container>
                 <span style={{
-                    margin : '1rem 0'
+                    fontWeight : 600,
+                    alignItems : 'center',
+                    justifyContent : 'center',
+                    margin: '4rem 0 2rem 0',
                 }}>My Experience</span>
                 <div className='card' style={{
                     textAlign : 'left',

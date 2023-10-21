@@ -1,4 +1,4 @@
-import { Navbar } from "../src/component";
+import { Footer, Navbar } from "../src/component";
 import { Main } from "./Pages"
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     }}>
       <Navbar/>
       <Main/>
+      <Footer/>
     </div>
   );
 }
