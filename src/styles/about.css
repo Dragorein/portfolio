@@ -1,0 +1,25 @@
+.title {
+    font-size: 4vh;
+}
+
+.description {
+    font-size: 3vh;
+}
+
+.skillListContainer {
+    flex-direction: column;
+}
+.skillRowContainer {
+    flex-direction: row;
+    display : flex;
+}
+
+@media screen and (max-width:840px){
+    .skillListContainer {
+        flex-direction: column;
+    }
+    .skillRowContainer {
+        flex-direction: column;
+        display : flex;
+    }
+}

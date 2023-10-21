@@ -1,5 +1,2 @@
-import UserImage from './user-image.png'
-
-export {
-    UserImage,
-}
+export * from './illustration'
+export * from './pictures'

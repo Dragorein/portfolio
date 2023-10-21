@@ -7,6 +7,7 @@ import { colors } from '../../../utilities/colors'
 import { BusinessCenterOutlined } from "@mui/icons-material";
 
 import '../../../styles/home.css';
+import { Container } from '../../layout'
 
 const Home = () => {
     return (
@@ -17,15 +18,7 @@ const Home = () => {
             overflow : 'hidden',
             position : 'relative',
         }}>
-            <div className='home' style={{
-                    height : '100vh',
-                    width : '100vw',
-                    padding : '0 3rem',
-                    fontWeight : 700,
-                    display : 'flex',
-                    flexDirection : 'column',
-                    justifyContent : 'center'
-            }}>
+            <Container center>
                 <div className='content' style={{ padding: '2rem' }}>
                     <span className='introduction' style={{ fontWeight : 500 }}>Hi, </span>
                     <br/>
@@ -38,9 +31,7 @@ const Home = () => {
                     </p>
                     <Link>
                         <CustomButton color={colors.white}>
-                            <div style={{
-                                marginRight : '0.5rem'
-                            }}>
+                            <div style={{ marginRight : '0.5rem' }}>
                                 <BusinessCenterOutlined />
                             </div>
                             Hire Me
@@ -50,11 +41,11 @@ const Home = () => {
                 <img src={UserImage} alt='user' className='userImage' style={{
                     position : 'absolute',
                     zIndex : -1,
-                    top : '-3rem',
+                    top : '-6rem',
                     objectFit : 'cover',
                     height : '100vh'
                 }}/>
-            </div>
+            </Container>
         </section>
     )
 }
