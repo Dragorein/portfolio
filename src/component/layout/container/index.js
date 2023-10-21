@@ -4,12 +4,13 @@ const CustomContainer = ({center, children}) => {
     if (center) {
         return (
             <div className='container' style={{
-                height : '100vh',
-                width : '94vw',
+                minHeight : '100vh',
+                width : '80vw',
                 padding : '0 3rem',
                 fontWeight : 700,
                 display : 'flex',
                 flexDirection : 'column',
+                margin : '1rem 0',
                 justifyContent : 'center',
             }}>
                 {children}
@@ -18,12 +19,12 @@ const CustomContainer = ({center, children}) => {
     } else {
         return (
             <div className='container' style={{
-                height : '100vh',
-                width : '94vw',
-                padding : '0 3rem',
-                fontWeight : 700,
+                minHeight : '100vh',
+                width : '80vw',
                 display : 'flex',
                 flexDirection : 'column',
+                margin : '1rem 0',
+                alignItems : 'center',
             }}>
                 {children}
             </div>

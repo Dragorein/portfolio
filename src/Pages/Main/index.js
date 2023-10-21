@@ -4,7 +4,8 @@ import { Home, About, Experience } from "../../component";
 const Main = () => {
     return (
         <div className='content' style={{
-            padding : '0'
+            padding : '0',
+            margin : '0'
         }}>
             <Home/>
             <About/>
