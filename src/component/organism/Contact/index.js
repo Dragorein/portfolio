@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Container } from '../../layout';
 import { colors } from '../../../utilities/colors';
 import { MailOutlineOutlined } from '@mui/icons-material';
 import { ContactInfo } from '../../molecule';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return (
         <section id='Contact' style={{
             minHeight : '100vh',
@@ -36,9 +49,13 @@ const Contact = () => {
                     flexDirection : 'column',
                     alignItems : 'center',
                     justifyContent : 'center',
-                }}>
-                    <input type='text' className='name' placeholder='Your Name' style={styles.input}/>
-                    <input type='text' className='email' placeholder='Your Email' style={styles.input}/>
+                    }} 
+                    onSubmit={sendEmail}
+                    ref={form}
+                >
+
+                    <input type='text' className='name' placeholder='Your Name' name='from_name' style={styles.input}/>
+                    <input type='text' className='email' placeholder='Your Email' name='from_email' style={styles.input}/>
                     <textarea name='message' placeholder='Your Message' rows={10} style={styles.input}/>
                     <button type='submit' value='send' className='submitBtn' style={{
                         backgroundColor : colors.white,
@@ -59,7 +76,8 @@ const Contact = () => {
                             </div>
                             Send
                     </button>
-                        <ContactInfo/>
+                    <ContactInfo/>
+
                 </form>
             </Container>
         </section>
