@@ -1,4 +1,4 @@
-# portofolio
+# portfolio
 
 Website for Reiner Terry Gunawan Portfolio using React Js
 
