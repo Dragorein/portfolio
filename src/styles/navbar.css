@@ -4,7 +4,49 @@
 }
 
 .navbarListItem:hover {
-    color: #f0ad4e;
+    color: #ff9500;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid #f0ad4e;
+    border-bottom: 3px solid #ff9500;
+}
+
+.active {
+    color: #ff9500;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #ff9500;
+}
+
+.navbarListItemMobile{
+    margin: 1rem;
+    cursor: pointer;
+    padding: 0.1rem 2rem;
+}
+
+.activeMobile {
+    color: #ff9500;
+}
+
+.navbarListDesktop {
+    display: flex;
+}
+
+.contactMeBtn {
+    display: flex;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+@media screen and (max-width: 840px) {
+    .burgerMenu {
+        display: flex;
+    }
+
+    .navbarListDesktop {
+        display: none;
+    }
+
+    .contactMeBtn {
+        display: none;
+    }
 }

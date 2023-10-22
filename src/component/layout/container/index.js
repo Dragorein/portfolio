@@ -6,7 +6,7 @@ const CustomContainer = ({center, children}) => {
             <div className='container' style={{
                 minHeight : '100vh',
                 width : '80vw',
-                padding : '0 3rem',
+                padding : '0 auto',
                 fontWeight : 700,
                 display : 'flex',
                 flexDirection : 'column',

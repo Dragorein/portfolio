@@ -6,7 +6,7 @@ import '../../../styles/about.css';
 
 const About = () => {
     return (
-        <section id="about" style={{
+        <section id="About" style={{
             minHeight : '100vh',
             margin : '0 auto',
             width : '100vw',

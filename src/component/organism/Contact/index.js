@@ -2,10 +2,11 @@ import React from 'react';
 import { Container } from '../../layout';
 import { colors } from '../../../utilities/colors';
 import { MailOutlineOutlined } from '@mui/icons-material';
+import { ContactInfo } from '../../molecule';
 
 const Contact = () => {
     return (
-        <section id='contact' style={{
+        <section id='Contact' style={{
             minHeight : '100vh',
             margin : '0 auto',
             width : '100vw',
@@ -19,7 +20,7 @@ const Contact = () => {
                 <h1 className='title' style={{
                     alignItems : 'center',
                     justifyContent : 'center',
-                    margin: '4rem 0 2rem 0',
+                    margin: '7rem 0 2rem 0',
                 }}>Contact Me</h1>
                 <span className='introduction' style={{
                     fontSize : '1.7rem',
@@ -28,8 +29,7 @@ const Contact = () => {
                 Feel free to complete this form and let's start a conversation about exciting job opportunities.
                 </span>
                 <form className='form' style={{
-                    margin : '1rem',
-                    backgroundColor : 'blue',
+                    margin : '2rem',
                     width : '90vw',
                     maxWidth : '65vw',
                     display : 'flex',
@@ -48,18 +48,18 @@ const Contact = () => {
                         alignItems : 'center',
                         justifyContent : 'center',
                         padding : '1rem 2rem',
+                        margin : '1rem 2rem',
                         fontSize : '1rem',
                         fontWeight : 600
                     }}>
-                        <div className='btnIcon' style={{
-                            marginRight : '0.5rem',
-                        }}>
-                            <MailOutlineOutlined/>
-                        </div>
-                        Send
+                            <div className='btnIcon' style={{
+                                marginRight : '0.5rem',
+                            }}>
+                                <MailOutlineOutlined/>
+                            </div>
+                            Send
                     </button>
-                    <div className='linkContact' style={{}}>
-                    </div>
+                        <ContactInfo/>
                 </form>
             </Container>
         </section>
@@ -81,5 +81,5 @@ const styles = {
         border : 'none',
         borderRadius : '0.5rem',
         backgroundColor : 'rgb(20, 20, 20)'
-    }
+    },
 }

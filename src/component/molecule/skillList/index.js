@@ -19,7 +19,7 @@ const SkillList = () => {
             justifyContent : 'center',
             flexWrap : 'wrap',
             width : '100vw',
-            maxWidth : '60rem',
+            maxWidth : '65rem',
         }}>
             <ImageCard>
                 <img src={JavascriptIllustration} alt='JavascriptIllustration' className='JavascriptIllustration' style={styles.item}/>
@@ -61,7 +61,7 @@ export default SkillList;
 const styles = {
     item : {
         margin: '2rem',
-        width : '8rem',
-        height : '8rem',
+        width : '10rem',
+        height : '10rem',
     }
 }

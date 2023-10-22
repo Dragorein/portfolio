@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container } from '../../layout';
+import { colors } from '../../../utilities/colors';
 
 const Experience = () => {
     return (
-        <section id="experience" style={{
+        <section id="Experience" style={{
             minHeight : 'calc(100vh-4rem)',
             margin : '0 auto',
             width : '100vw',
@@ -26,7 +27,7 @@ const Experience = () => {
                     padding : '2rem'
                 }}>
                 <div className='experienceCard' style={{
-                    backgroundColor : 'rgba(200,200,200,0.2)',
+                    backgroundColor : colors.transparent,
                     padding : '2rem',
                     borderRadius : 50,
                     fontWeight : 500,
@@ -59,7 +60,7 @@ const Experience = () => {
                     textAlign : 'left',
                 }}>
                 <div className='experienceCard' style={{
-                    backgroundColor : 'rgba(200,200,200,0.2)',
+                    backgroundColor : colors.transparent,
                     padding : '2rem',
                     borderRadius : 50,
                     fontWeight : 500,
@@ -80,7 +81,7 @@ const Experience = () => {
                     }}>Cranium Indonesia is a software house based in Jakarta, Indonesia, providing digital solutions</p>
                     <hr/>
                         <ul>
-                            <li>Designed a CMS using Express JS and Handlebars/React JS.</li>
+                            <li>Designed a CMS using Express JS and Handlebars / React JS.</li>
                             <li>Proficient in creating RESTful APIs with Express JS and enhancing database management using Sequelize.</li>
                             <li>Integrated third-party services (OneSignal, Mailgun, Google Firebase, AWS) into APIs and mobile apps.</li>
                             <li>Strong understanding of SQL databases (MySQL, PostgreSQL) and NoSQL architecture.</li>

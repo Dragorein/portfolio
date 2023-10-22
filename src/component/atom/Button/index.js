@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CustomButton = ({ color, children }) => {
+const CustomButton = ({ color, onclickFunction, children }) => {
     return (
         <button style={{
             backgroundColor : color,
@@ -12,7 +12,9 @@ const CustomButton = ({ color, children }) => {
             padding : '1rem 2rem',
             fontSize : '1rem',
             fontWeight : 600
-        }}>
+        }}
+        onClick={onclickFunction}
+        >
             {children}
         </button>
     )

@@ -6,8 +6,8 @@ const CustomImageCard = ({children}) => {
         <div style={{
             backgroundColor : colors.white,
             borderRadius : 20,
-            width : '10rem',
-            height : '10rem',
+            width : '12rem',
+            height : '12rem',
             display : 'flex',
             justifyContent : 'center',
             alignItems : 'center',
