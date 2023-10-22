@@ -1,0 +1,27 @@
+.experienceCard {
+    font-size: 1.5rem;
+}
+.occupation {
+    font-size: 2.5rem;
+}
+.year {
+    font-size: 1rem;
+}
+.description {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:840px) {
+    .experienceCard {
+        font-size: 3vw;
+    }
+    .occupation {
+        font-size: 4vw;
+    }
+    .year {
+        font-size: 3vw;
+    }
+    .description {
+        font-size: 3vw;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from '../../layout';
 import { colors } from '../../../utilities/colors';
+import '../../../styles/experience.css'
 
 const Experience = () => {
     return (
@@ -31,20 +32,16 @@ const Experience = () => {
                     padding : '2rem',
                     borderRadius : 50,
                     fontWeight : 500,
-                    fontSize : '2rem',
                     width : '65vw'
                 }}>
                     <span className='occupation' style={{
                         fontWeight : 500,
-                        fontSize : '2.5rem',
                     }}>Full Stack Developer Intern, Emporia Digital Raya</span>
                     <p className='year' style={{
                         fontWeight : 300,
-                        fontSize : '1rem',
                     }}>Aug 2021 - Dec 2021</p>
                     <p className='description' style={{
                         fontWeight : 400,
-                        fontSize : '1.5rem',
                     }}>Emporia Digital Raya, a subsidiary of PT Anabatic Technologies, specializes in fintech solutions.</p>
                     <hr/>
                         <ul>
@@ -64,20 +61,16 @@ const Experience = () => {
                     padding : '2rem',
                     borderRadius : 50,
                     fontWeight : 500,
-                    fontSize : '2rem',
                     width : '65vw'
                 }}>
                     <span className='occupation' style={{
                         fontWeight : 500,
-                        fontSize : '2.5rem',
                     }}>Full Stack Developer, Cranium Indonesia</span>
                     <p className='year' style={{
                         fontWeight : 300,
-                        fontSize : '1rem',
                     }}>Sep 2022 - Now</p>
                     <p className='description' style={{
                         fontWeight : 400,
-                        fontSize : '1.5rem',
                     }}>Cranium Indonesia is a software house based in Jakarta, Indonesia, providing digital solutions</p>
                     <hr/>
                         <ul>
