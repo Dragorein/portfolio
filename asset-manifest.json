@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.18af88a3.css",
+    "main.js": "/portfolio/static/js/main.48a19027.js",
+    "static/media/user-image.png": "/portfolio/static/media/user-image.f3abb5029611ee2964a8.png",
+    "static/media/whatsapp.png": "/portfolio/static/media/whatsapp.6264a5fffb99d2607b72.png",
+    "static/media/postgresql.png": "/portfolio/static/media/postgresql.0ef1d20205b55c34d91c.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.882f3995c036f7e6af19.png",
+    "static/media/react.png": "/portfolio/static/media/react.08f2edc7372970908b4e.png",
+    "static/media/gmail.png": "/portfolio/static/media/gmail.5ac6f3e4b58eab4948f1.png",
+    "static/media/node-js.png": "/portfolio/static/media/node-js.17449c5e7ff168b0defa.png",
+    "static/media/firebase.png": "/portfolio/static/media/firebase.fb865d52093dfd21bf25.png",
+    "static/media/linkedin.png": "/portfolio/static/media/linkedin.09ab464962effa2f7627.png",
+    "static/media/express-js.png": "/portfolio/static/media/express-js.d821c87c4fa3729d254d.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.aaa88f83b6b4a9dc6a04.png",
+    "static/media/git.png": "/portfolio/static/media/git.6bfa0617503b3aef0c17.png",
+    "index.html": "/portfolio/index.html",
+    "main.18af88a3.css.map": "/portfolio/static/css/main.18af88a3.css.map",
+    "main.48a19027.js.map": "/portfolio/static/js/main.48a19027.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18af88a3.css",
+    "static/js/main.48a19027.js"
+  ]
+}
