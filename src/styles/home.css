@@ -1,0 +1,45 @@
+.userImage {
+    right: -1vw;
+}
+.home {
+    font-size: 2vw;
+}
+.content {
+    font-size: 3vw;
+}
+.bio {
+    font-size: 1.5vw;
+    max-width : 40vw
+}
+
+@media screen and (max-width:840px) {
+    .userImage {
+        right: -5vw;
+    }
+    .home {
+        font-size: 5vw;
+    }
+    .content {
+        font-size: 6vw;
+    }
+    .bio {
+        font-size: 4vw;
+        max-width : 60vw
+    }
+}
+
+@media screen and (max-width:480px) {
+    .userImage {
+        right: -30vw;
+    }
+    .home {
+        font-size: 5vw;
+    }
+    .content {
+        font-size: 7vw;
+    }
+    .bio {
+        font-size: 5vw;
+        max-width : 70vw
+    }
+}
