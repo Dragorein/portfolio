@@ -30,7 +30,9 @@ const Home = () => {
                         I'm a node.js Full Stack Developer with experience in creating restful APIs and mobile or web design using React.
                     </p>
                     <Link>
-                        <CustomButton color={colors.white}>
+                        <CustomButton color={colors.white} onclickFunction={() => {
+                            document.getElementById('Contact').scrollIntoView({ behavior : 'smooth' });
+                        }}>
                             <div style={{ marginRight : '0.5rem' }}>
                                 <BusinessCenterOutlined />
                             </div>
