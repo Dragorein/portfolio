@@ -15,6 +15,7 @@ const Home = () => {
             height : 'calc(100vh - 4rem)',
             width : '100vw',
             margin : '0 auto',
+            padding : '0 2rem',
             overflow : 'hidden',
             position : 'relative',
         }}>

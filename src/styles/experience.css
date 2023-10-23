@@ -25,3 +25,18 @@
         font-size: 3vw;
     }
 }
+
+@media screen and (max-width:420px) {
+    .experienceCard {
+        font-size: 5vw;
+    }
+    .occupation {
+        font-size: 6vw;
+    }
+    .year {
+        font-size: 5vw;
+    }
+    .description {
+        font-size: 5vw;
+    }
+}

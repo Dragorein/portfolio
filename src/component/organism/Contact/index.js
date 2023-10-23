@@ -58,7 +58,7 @@ const Contact = () => {
 
                     <input type='text' className='name' placeholder='Your Name' name='from_name' style={styles.input}/>
                     <input type='text' className='email' placeholder='Your Email' name='from_email' style={styles.input}/>
-                    <textarea name='message' placeholder='Your Message' rows={10} style={styles.input}/>
+                    <textarea name='message' placeholder='Your Message' rows={10} style={styles.input} />
                     <button type='submit' value='send' className='submitBtn' style={{
                         backgroundColor : colors.white,
                         borderRadius : 50,
@@ -100,6 +100,7 @@ const styles = {
         color : colors.white,
         border : 'none',
         borderRadius : '0.5rem',
-        backgroundColor : 'rgb(20, 20, 20)'
+        backgroundColor : 'rgb(20, 20, 20)',
+        resize : 'none'
     },
 }

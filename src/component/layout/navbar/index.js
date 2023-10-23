@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className='navbar' style={{
             display : 'flex',
             height : '4rem',
-            margin : '0 auto',
+            margin : '0',
             padding : '1rem 3rem',
             alignItems : 'center',
             justifyContent : 'space-between',
