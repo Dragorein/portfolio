@@ -10,5 +10,6 @@ export const colors = {
     white: '#fff',
     disabled: '#cfcfcf',
     transparent: 'rgba(255,255,255,0.1)',
+    semiTransparent: 'rgba(30,30,30,0.9)',
   };
   

@@ -78,7 +78,7 @@ const Navbar = () => {
                 fontSize : '1rem',
                 fontWeight : 600,
                 flexDirection : 'column',
-                backgroundColor : colors.transparent,
+                backgroundColor : colors.semiTransparent,
                 borderRadius : '1rem',
                 alignItems : 'center'
             }}>
