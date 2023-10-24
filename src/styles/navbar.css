@@ -37,7 +37,14 @@
     display: none;
 }
 
+.navbar {
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
 @media screen and (max-width: 840px) {
+    .navbar {
+        background-color: rgba(30, 30, 30, 0.0);
+    }
     .burgerMenu {
         display: flex;
     }
